@@ -1,1 +1,5 @@
 /dataset_creation/comofod_small
+*.png
+*.jpeg
+*.tiff
+*.jpg
