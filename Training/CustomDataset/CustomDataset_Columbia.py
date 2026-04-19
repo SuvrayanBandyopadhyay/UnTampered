@@ -83,7 +83,7 @@ class CustomDataset(Dataset):
             mask_path_full = None
 
             #Trying out extensions
-            for ext in (".png", ".jpg", ".jpeg","tif"):
+            for ext in (".png", ".jpg", ".jpeg",".tif"):
                 candidate = os.path.join(mask_path, f"{name}_edgemask{ext}")
                 if os.path.exists(candidate):
                     mask_path_full = candidate
